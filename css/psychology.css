@@ -1,0 +1,35 @@
+.fff{
+    width: 35vw;
+}
+main p{
+    width: 35vw;
+}
+.gg{
+    width: 100%;
+}
+.about{
+    display: flex;
+    /* grid-template-columns: 10vw 35vw 10vw 35vw 10vw;
+    grid-template-rows: 10vh 35vh 10vh 35vh 10vh 35vh 10vh 35vh 10vh 35vh 10vh;
+    grid-template-areas: 
+    '. . . . .'
+    '. c . b .'
+    '. . . . .'
+    '. b . c .'
+    '. . . . .'
+    '. c . b .'
+    '. . . . .'
+    '. b . c .'
+    '. . . . .'
+    '. c . b .'
+    '. . . . .'; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenting{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

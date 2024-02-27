@@ -1,0 +1,586 @@
+/*planning*/
+#planning_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.research_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.planning_research_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+.planning_person_block{
+    font-size: 2.3vw;
+    width: 80%;
+    text-align: left;
+    line-height: 3;
+    margin: -1vw 0vw 0vw 3.5vw;
+    padding-bottom: 2vw 1vw 1vw 500px;
+    font-family: 'Roboto Mono';
+}
+.planning_research_text_span_mini_block{
+    display: block;
+    width: 50%;
+    padding-left: 5vw;
+}
+/*read*/
+#read_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.read_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.planning_read_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+/*write*/
+#write_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.write_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.planning_write_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+/*brain_erros*/
+#brain_erros_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.brain_erros_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.brain_erros_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+/*"motivation*/
+#motivation_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.brain_erros_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.planning_brain_erros_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+/*sport_activity*/
+#sport_activity_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.sport_activity_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.sport_activity_erros_text{
+    font-size: 1.6vw;
+    width: 100%;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0vw 0vw 0vw vw;
+    font-family: 'Roboto Mono';
+}
+/*dream*/
+#dream_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.research_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.dream_research_text{
+    font-size: 1.900vw;
+    width: 80%;
+    text-align: left;   
+    line-height: 1.5;
+    margin: 0vw 0vw 0vw 3.5vw;
+    font-family: 'Roboto Mono';
+}
+.research_dream_block_text_br{
+    border: 1p solid black;
+}
+#group_research_img_button{
+    width: 41.667vw;
+    height: 27.777vw;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.checklist_dream_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0vw 2vw 0vw;
+}
+.checklist_dream_block ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.checklist_dream_block_ul_li_block{
+    width: 90%;
+    padding: 1vw 0vw 1vw 2vw;
+}
+.checklist_dream_block li{
+    width: 85%;
+    border-bottom: 2px solid black;
+    font-size: 1.4vw;
+    font-family: 'Roboto Mono';
+    padding: 1vw;
+    display: flex;
+    align-items: flex-end;
+}
+.checklist_dream_block_li_text{
+    width: 95%;
+}
+.dream_research_text_mobile_span{
+    display: none;
+}
+.checklist_dream {
+    appearance: none; 
+    border: 0.2vw solid #ffffff; 
+    cursor: pointer; 
+    padding: 2%;
+}
+.checklist_dream:checked::before {
+    position: absolute;
+    content: "\2713"; 
+    font-size: 2.5vw;    
+    text-align: left;
+    line-height: 1px;
+    margin-left: -0.5vw;  
+    color: #000; 
+}
+.show {
+    visibility: visible;
+    opacity: 1;
+    top: 20px;
+}
+/*sleep*/
+#sleep_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.research_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.sleep_research_text{
+    font-size: 1.900vw;
+    width: 80%;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0vw 0vw 0vw 3.5vw;
+    font-family: 'Roboto Mono';
+}
+.research_sleep_block_text_br{
+    border: 1p solid black;
+}
+#group_research_img_button{
+    width: 41.667vw;
+    height: 27.777vw;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.checklist_sleep_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0vw 2vw 0vw;
+}
+.checklist_sleep_block ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.checklist_sleep_block_ul_li_block{
+    width: 90%;
+    padding: 1vw 0vw 1vw 2vw;
+}
+.checklist_sleep_block li{
+    width: 85%;
+    border-bottom: 2px solid black;
+    font-size: 1.4vw;
+    font-family: 'Roboto Mono';
+    padding: 1vw;
+    display: flex;
+    align-items: flex-end;
+}
+.checklist_sleep_block_li_text{
+    width: 95%;
+}
+.sleep_research_text_mobile_span{
+    display: none;
+}
+.checklist_sleep {
+    appearance: none; 
+    border: 0.2vw solid #ffffff; 
+    cursor: pointer; 
+    padding: 2%;
+}
+.checklist_sleep:checked::before {
+    position: absolute;
+    content: "\2713"; 
+    font-size: 2.5vw;    
+    text-align: left;
+    line-height: 1px;
+    margin-left: -0.5vw;  
+    color: #000; 
+}
+/*digital hygiene*/
+#digital_hygiene_research{
+    width: 90%;
+    margin: 0vw 4vw 0vw 0vw;    
+    position: absolute;
+    background-color: #64766A;
+    display: none;
+}
+.research_block_title_text{
+    font-size: 3.167vw;
+    text-align: center;
+    margin: 1vw 0vw 3vw 0vw;
+}
+.digital_hygiene_research_text{
+    font-size: 1.900vw;
+    width: 80%;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0vw 0vw 0vw 3.5vw;
+    font-family: 'Roboto Mono';
+}
+.research_digital_hygiene_block_text_br{
+    border: 1p solid black;
+}
+#group_research_img_button{
+    width: 41.667vw;
+    height: 27.777vw;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+.checklist_digital_hygiene_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0vw 2vw 0vw;
+}
+.checklist_digital_hygiene_block ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.checklist_digital_hygiene_block_ul_li_block{
+    width: 90%;
+    padding: 1vw 0vw 1vw 2vw;
+}
+.checklist_digital_hygiene_block li{
+    width: 85%;
+    border-bottom: 2px solid black;
+    font-size: 1.4vw;
+    font-family: 'Roboto Mono';
+    padding: 1vw;
+    display: flex;
+    align-items: flex-end;
+}
+.checklist_digital_hygiene_block_li_text{
+    width: 95%;
+}
+.digital_hygiene_research_text_mobile_span{
+    display: none;
+}
+.checklist_digital_hygiene {
+    appearance: none; 
+    border: 0.2vw solid #ffffff; 
+    cursor: pointer; 
+    padding: 2%;
+}
+.checklist_digital_hygiene:checked::before {
+    position: absolute;
+    content: "\2713"; 
+    font-size: 2.5vw;    
+    text-align: left;
+    line-height: 1px;
+    margin-left: -0.5vw;  
+    color: #000; 
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*dream*/ 
+    .dream_research_text_mobile_span{
+        display: none;
+    }
+    #dream_research{
+        width: 100%; 
+        position: absolute;
+        background-color: #64766A;
+        display: none;
+    }
+    .checklist_dream_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_dream_block ul{
+        width: 100%;
+    }
+    .checklist_dream_block li{
+        width: 95%;
+        font-size: 1.9vw;
+    }
+    .checklist_dream_block_ul_li_block{
+        width: 100%;
+    }
+    .checklist_dream_block_ul_li_block1{
+        padding-right: 1vw;
+    }
+    .checklist_dream_block_ul_li_block2{
+        padding-right: 1vw;
+    }
+     /*digital_hygiene*/ 
+    .digital_hygiene_research_text_mobile_span{
+        display: none;
+    }
+    #digital_hygiene_research{
+        width: 100%; 
+        position: absolute;
+        background-color: #64766A;
+        display: none;
+    }
+    .checklist_digital_hygiene_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_digital_hygiene_block ul{
+        width: 100%;
+    }
+    .checklist_digital_hygiene_block li{
+        width: 95%;
+        font-size: 1.9vw;
+    }
+    .checklist_digital_hygiene_block_ul_li_block{
+        width: 100%;
+    }
+    .checklist_digital_hygiene_block_ul_li_block1{
+        padding-right: 1vw;
+    }
+    .checklist_digital_hygiene_block_ul_li_block2{
+        padding-right: 1vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    /*dream*/
+    .dream_research_text_span{
+        display: none;
+    }
+    .dream_research_text_mobile_span{
+        display: block;
+    }
+    .checklist_dream_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_dream {
+        border: 0.2vw solid #ffffff; /* Обведення */
+    }  
+    #dream_research{
+        width: 100%; 
+        position: absolute;
+        background-color: #64766A;
+        display: none;
+    }
+    .checklist_dream_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_dream_block ul{
+        width: 100%;
+    }
+    .checklist_dream_block li{
+        width: 95%;
+        font-size: 3vw;
+        padding-top: 5vw;
+        text-align: center;
+    }
+    .checklist_dream_block_ul_li_block{
+        width: 100%;
+    }
+    .checklist_dream_block_ul_li_block1{
+        padding-right: 1vw;
+    }
+    .checklist_dream_block_ul_li_block2{
+        padding-right: 1vw;
+    }
+    .dream_research_text{
+        font-size: 4vw;
+        width: 90%;
+        text-align: left;
+        line-height: 1.2;
+        font-family: 'Roboto Mono';
+        display: flex;
+
+    }
+    .checklist_dream_block ul{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .research_block_title_text{
+        font-size: 6.167vw;
+        text-align: center;
+        margin: 3vw 0vw 3vw 0vw;
+    }
+    /*digital_hygiene*/
+    .digital_hygiene_research_text_span{
+        display: none;
+    }
+    .digital_hygiene_research_text_mobile_span{
+        display: block;
+    }
+    .checklist_digital_hygiene_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_digital_hygiene {
+        border: 0.2vw solid #ffffff; /* Обведення */
+    }  
+    #digital_hygiene_research{
+        width: 100%; 
+        position: absolute;
+        background-color: #64766A;
+        display: block;
+    }
+    .checklist_digital_hygiene_block li{
+        width: 85%;
+        border-bottom: 1px solid black;
+        font-size: 1.4vw;
+        font-family: 'Roboto Mono';
+        padding: 1vw;
+        display: flex;
+        align-items: flex-end;
+    }
+    .checklist_digital_hygiene_block ul{
+        width: 100%;
+    }
+    .checklist_digital_hygiene_block li{
+        width: 95%;
+        font-size: 3vw;
+        padding-top: 5vw;
+        text-align: center;
+    }
+    .checklist_digital_hygiene_block_ul_li_block{
+        width: 100%;
+    }
+    .checklist_digital_hygiene_block_ul_li_block1{
+        padding-right: 1vw;
+    }
+    .checklist_digital_hygiene_block_ul_li_block2{
+        padding-right: 1vw;
+    }
+    .digital_hygiene_research_text{
+        font-size: 4vw;
+        width: 90%;
+        text-align: left;
+        line-height: 1.2;
+        font-family: 'Roboto Mono';
+        display: flex;
+
+    }
+    .checklist_digital_hygiene_block ul{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .research_block_title_text{
+        font-size: 6.167vw;
+        text-align: center;
+        margin: 3vw 0vw 3vw 0vw;
+    }
+}

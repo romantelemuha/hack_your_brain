@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+header{
+    font-family: "Lato", sans-serif;
+    background-color: #748B6FBE;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vw;
+    font-size: 2vw;
+}
+.flex{
+    display: flex;
+}
+.header_i1{
+    width: 5vw;
+    height: 3vw;
+    margin-right: 1vw;
+}
+.dark{
+    background-color: #404F3CE5;
+}
+.light{
+    color: white;
+}
+.header_i2{
+    width: 5vw;
+    height: 5vw;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navigation{
+    width: 80%;
+    justify-content: space-evenly;
+}
+.img_nav{
+    justify-content: space-evenly;
+}
+.burger{
+    display: none;
+    width: 7vw;
+    height: 7vw;
+}
+.burger img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1vw;
+    background-color: #F7F6EE;
+}
+.title_dark{
+    color: white;
+    background-color: #79776D;
+}
+.title h1{
+    font-size: 4vw;
+}
+.title img{
+   width: 30vw;
+}
+.about{
+    background-color: #92A68A;
+}
+.text_slider, .animation_text{
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_dark{
+    color: white;
+    background-color: #454E41;
+}
+.slider{
+    width: 30vw;
+}
+
+.main_animation{
+    width: 30vw;
+}
+.slider_text, .main_animation_text{
+    font-size: 2vw;
+    width: 30vw;
+}
+footer{
+    background-color: #64766A;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+.footer_dark{
+    background-color: #323B35;
+}
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+    .navigation{  
+        width: 40%;
+        flex-wrap: wrap;
+   }
+   .header_a{
+    margin-right: 1vw;
+    margin-top: 1vw;
+   }
+   .text_slider{
+    flex-direction: column-reverse;
+   }
+   .slider{
+    width: 40vw;
+    height: 20vw;
+    }
+    .slider_text{
+        width: 40vw;
+        text-align: center;
+    }
+    .slider_text, .text_slider{
+        padding-top: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .burger{
+        display: block;
+    }
+    .navigation{
+        display: none;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 25vw;
+        height: 30vw;
+        background-color: #748B6F;
+        margin-top: 5vw;
+        margin-right: 20vw;
+        box-sizing: border-box;
+        padding: 2vw;
+        font-size: 3vw;
+        font-weight: bold;
+        z-index: 1;
+    }
+    .navigation_burger{
+        display: flex;
+    }
+    header{
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .title{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title h1{
+        width: 50vw;
+    }
+    .text_slider{
+        flex-direction: column-reverse;
+    }
+    .animation_text{
+        flex-direction: column;
+    }
+    .slider_text, .text_slider, .main_animation_text{
+        padding-top: 2vw;
+    }
+    .slider{
+        width: 50vw;
+        height: 30vw;
+    }
+    .slider_text, .main_animation_text{
+        width: 40vw;
+        text-align: center;
+    }
+    footer{
+        height: 15vw;
+    }
+}
